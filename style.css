@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-v {
+    color: white;
+    font-family: sans-serif;
+    height: 95vh;
+    width: 40vw;
+    border-radius: 25px;
+    background-color: rgb(95, 94, 94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 200px;
+    border: 1px solid white;
+
+}
+.part-c {
+    margin-top: 2.5vh;
+    height: 45vh;
+    width: 40vw;
+    border-bottom: 2px solid rgb(155, 155, 155) ;
+}
+
+.part-b {
+    height: 42vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    height: 7vh;
+    width: 15vw;
+    border: none;
+    color: blue;
+    border-radius: 100px;
+}
